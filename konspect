@@ -1,0 +1,142 @@
+ls – список файлов и папок (ls -l – подробно, ls -a – скрытые файлы)
+
+cd – перейти в директорию (cd .. – на уровень выше, cd ~ – в домашнюю папку)
+
+pwd – текущая директория
+
+mkdir – создать папку (mkdir -p dir1/dir2 – с подпапками)
+
+rm – удалить файл (rm -r – удалить папку рекурсивно, rm -f – принудительно)
+
+cp – копировать (cp -r для папок)
+
+mv – переместить или переименовать 
+
+touch – создать пустой файл
+
+find – поиск файлов (find /path -name "*.txt")
+
+locate – быстрый поиск файлов (требует updatedb)
+
+cat – вывести содержимое файла
+
+less / more – просмотр файла постранично
+
+head / tail – первые/последние строки файла (tail -f – следить за изменениями)
+
+chmod – изменить права (chmod 755 file, chmod +x script.sh)
+
+chown – изменить владельца (chown user:group file)
+
+ln – создать ссылку (ln -s – символическую)
+
+Текстовые редакторы
+nano – простой редактор
+
+vim / vi – мощный редактор (режимы: i – вставка, Esc – командный, :wq – сохранить и выйти)
+
+sed – потоковый редактор (sed 's/old/new/g' file.txt)
+
+grep – поиск текста (grep "text" file.txt, grep -r "text" /dir – рекурсивно)
+
+Архивы и сжатие
+tar – работа с архивами (tar -cvf archive.tar dir/ – создать, tar -xvf archive.tar – распаковать)
+
+gzip / gunzip – сжатие (gzip file, gunzip file.gz)
+
+zip / unzip – ZIP-архивы (zip archive.zip file, unzip archive.zip)
+
+7z – работа с 7-Zip (7z a archive.7z dir/, 7z x archive.7z)
+
+Система и процессы
+ps – список процессов (ps aux – подробно)
+
+top / htop – мониторинг процессов
+
+kill – завершить процесс (kill -9 PID – принудительно)
+
+pkill – убить по имени (pkill process_name)
+
+systemctl – управление сервисами (systemctl start nginx, systemctl enable nginx)
+
+journalctl – логи systemd (journalctl -u nginx)
+
+shutdown – выключение (shutdown now, shutdown -r – перезагрузка)
+
+reboot – перезагрузка
+
+uname – информация о системе (uname -a – все данные)
+
+df – свободное место на дисках (df -h – в читаемом формате)
+
+du – размер файлов/папок (du -sh dir/ – суммарно)
+
+free – информация о памяти (free -h)
+
+Сеть
+ping – проверить соединение (ping google.com)
+
+ifconfig / ip – настройка сети (ip a, ip route)
+
+netstat – сетевые соединения (netstat -tulnp)
+
+ss – альтернатива netstat (ss -tulnp)
+
+ssh – подключиться к серверу (ssh user@host)
+
+scp – копирование через SSH (scp file user@host:/path)
+
+wget / curl – загрузка файлов (wget url, curl -O url)
+
+ufw – фаервол (ufw enable, ufw allow 22)
+
+Пользователи и группы
+useradd / adduser – создать пользователя
+
+usermod – изменить пользователя (usermod -aG group user – добавить в группу)
+
+passwd – сменить пароль (passwd username)
+
+su / sudo – переключить пользователя (sudo command, su - username)
+
+whoami – текущий пользователь
+
+id – информация о пользователе (id username)
+
+Пакетные менеджеры
+Debian/Ubuntu (APT):
+
+apt update – обновить список пакетов
+
+apt upgrade – обновить пакеты
+
+apt install pkg – установить пакет
+
+apt remove pkg – удалить пакет
+
+RHEL/CentOS (YUM/DNF):
+
+yum install pkg / dnf install pkg
+
+yum remove pkg
+
+Arch (Pacman):
+
+pacman -S pkg – установить
+
+pacman -R pkg – удалить
+
+Разное
+alias – создать псевдоним (alias ll='ls -lah')
+
+crontab – планировщик задач (crontab -e)
+
+history – история команд (history | grep "text")
+
+man – справка (man ls)
+
+which – путь к исполняемому файлу (which python)
+
+echo – вывод текста (echo "Hello" > file.txt – запись в файл)
+
+date – текущая дата и время (date +"%Y-%m-%d")
