@@ -1,8 +1,8 @@
 # Myfirst
 
-![Логотип]([https://via.placeholder.com/150](https://img-webcalypt.ru/storage/memes/29037/20256/ERUyJ6ripSDPIV8FnZn5GxH5WQtwuUf0kPR7Q1iafEK3C7a1dkKyS4MEB8mWIqNsq09ARqc6N3QqOhNTooJPchsfNFvLOZxZkySbQAf6eQHG4vxCbE4HphdZLQmq8OkA.jpeg))
+![Логотип](https://i.pinimg.com/736x/9c/b3/d1/9cb3d1dbed99a0fa134ce01139b797a0.jpg)
 
-Now I will become a good programmer
+Конспект Линукса
 
 ## Установка
 Пошагово как установить проект:
